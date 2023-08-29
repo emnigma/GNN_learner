@@ -31,16 +31,15 @@ bash install_script.sh
 ### UTBot test suite / 5k step limit / 100 sec time limit
 |                    | Avg. coverage (more is better) | Avg. steps count to 100% (less is better) | Avg. tests generated (less is better) | Avg. errors generated (more is better) |
 |--------------------|--------------------------------|-------------------------------------------|---------------------------------------|----------------------------------------|
-| AI-guided searcher |              88.43             |                   174.11                  |                  2.3                  |                   0.5                  |
-| BFS                |              88.3              |                   232.67                  |                  3.74                 |                  0.86                  |
-| FORK_DEPTH         |              88.67             |                   250.1                   |                  3.28                 |                  1.25                  |
-| FORK_DEPTH_RANDOM  |              88.45             |                   232.54                  |                  3.84                 |                  0.93                  |
+| AI-guided searcher |              87.76             |                   61.02                   |                  2.34                 |                  0.59                  |
+| BFS                |              88.25             |                   83.01                   |                  3.81                 |                  0.87                  |
+| FORK_DEPTH         |              88.55             |                    82.5                   |                  3.56                 |                  1.26                  |
+| FORK_DEPTH_RANDOM  |              88.45             |                   76.93                   |                  3.68                 |                  0.92                  |
 
 ### SBST comp.: guava / 5k step limit / 100 sec time limit:
 |                    | Avg. coverage (more is better) | Avg. steps count to 100% (less is better) | Avg. tests generated (less is better) | Avg. errors generated (more is better) |
 |--------------------|--------------------------------|-------------------------------------------|---------------------------------------|----------------------------------------|
-| AI-guided searcher |              79.58             |                   418.56                  |                  1.54                 |                  0.27                  |
-| BFS                |              80.74             |                   887.71                  |                  1.98                 |                  0.58                  |
-| FORK_DEPTH         |              79.62             |                   924.1                   |                  1.81                 |                  1.23                  |
-| FORK_DEPTH_RANDOM  |              80.74             |                   866.11                  |                  1.88                 |                  0.47                  |
-
+| AI-guided searcher |              79.39             |                   63.03                   |                  1.65                 |                  0.34                  |
+| BFS                |              80.74             |                   154.95                  |                  1.98                 |                  0.58                  |
+| FORK_DEPTH         |              79.62             |                   77.08                   |                  1.81                 |                  1.23                  |
+| FORK_DEPTH_RANDOM  |              80.74             |                   124.25                  |                  1.88                 |                  0.47                  |
