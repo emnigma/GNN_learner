@@ -1,4 +1,14 @@
-Framework for Genetic NN training
+# AI-guided Symbolic Execution
+
+This is a framework for supervisor "ensemble" creation for GNN supervised learning
+
+# Features
+
+* Multiprocessing
+* Flexible config
+* Any SE Engine integration is possible
+
+# How to use
 
 ## Steps to run client
 
@@ -16,7 +26,7 @@ bash install_script.sh
 2. `python3 launch_servers.py`
 3. `python3 main.py`
 
-## Evaluation
+# Evaluation
 
 ### UTBot test suite / 5k step limit / 100 sec time limit
 |                    | Avg. coverage (more is better) | Avg. steps count to 100% (less is better) | Avg. tests generated (less is better) | Avg. errors generated (more is better) |
